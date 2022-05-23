@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "incremental": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "composite": true,
+    "target": "esnext",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./tests/**/*.ts"
+  ]
+}
